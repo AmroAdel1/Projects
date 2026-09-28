@@ -13,3 +13,8 @@ Thumbs.db
 # Editor folders
 .vscode/
 .idea/
+
+.wrangler
+.dev.vars
+.env
+.env.*
