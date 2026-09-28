@@ -1,0 +1,547 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "slug": "mastering-golden-hour-photography",
+      "title": "Mastering Golden Hour Photography: A Complete Guide",
+      "excerpt": "Learn how to capture stunning photos during golden hour with professional tips on lighting and composition.",
+      "content": "Golden hour is the most magical time for photography. That brief window after sunrise and before sunset, when the light is soft, warm, and enchanting.\n\n## Why Golden Hour?\n\nThe light during this time has unique qualities: long soft shadows, warm golden tones, and low contrast that makes everything look more beautiful. Portraits gain a natural glow and landscapes turn into works of art.\n\n## Preparing in Advance\n\nPlan your shoot ahead of time. Use apps like PhotoPills to know the exact golden hour timing at your location. Arrive 30 minutes early to choose the best angle.\n\n## Camera Settings\n\nUse a low ISO to minimize noise. Aperture depends on your goal: f/1.8-f/2.8 for portraits with a blurred background, or f/8-f/11 for sharp landscapes.\n\n## Artistic Composition\n\nPosition the sun behind your subject for a magical backlighting effect, or use it as a side light source to bring out texture and depth.\n\n## Conclusion\n\nGolden hour is a gift to photographers. Make the most of it and you'll come away with unforgettable photos full of natural beauty.",
+      "category": "Lighting",
+      "author": {
+        "name": "Salem Ahmed",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
+        "role": "Professional Photographer"
+      },
+      "image": "https://images.unsplash.com/photo-1500835556837-99ac94a94552?w=800&h=400&fit=crop",
+      "date": "15 January 2026",
+      "readTime": "8 min read",
+      "featured": true,
+      "tags": ["Lighting", "Golden Hour", "Outdoor Photography"]
+    },
+    {
+      "id": 2,
+      "slug": "portrait-photography-secrets",
+      "title": "Portrait Photography Secrets: How to Capture the Soul of Your Subject",
+      "excerpt": "Discover professional techniques for taking expressive portraits that reveal your subject's true personality.",
+      "content": "Portrait photography is the art of capturing a person's essence in a single frame. It's not just documenting features—it's revealing the story behind the eyes.\n\n## Connecting With Your Subject\n\nBefore you pick up the camera, talk to the person. Make them comfortable. A genuine smile and a natural gaze only come when the subject trusts you.\n\n## Choosing the Right Lens\n\n85mm and 50mm lenses are portrait classics. They provide ideal facial compression and a beautiful blurred background.\n\n## Natural Light\n\nA large window is a portrait photographer's best friend. Position the subject at a 45-degree angle from the window for gorgeous three-dimensional lighting.\n\n## Focus on the Eyes\n\nThe eyes are the window to the soul. Always make sure the eyes are sharp and in focus. Use a single focus point on the eye closest to the camera.\n\n## Background and Composition\n\nChoose a simple background that doesn't distract. Use the rule of thirds to place the eyes at strong points in the frame.\n\n## Conclusion\n\nA successful portrait tells a story. When you combine technique with human connection, you create timeless images.",
+      "category": "Portrait",
+      "author": {
+        "name": "Mohammed Ali",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face",
+        "role": "Portrait Photographer"
+      },
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=400&fit=crop",
+      "date": "12 January 2026",
+      "readTime": "6 min read",
+      "featured": true,
+      "tags": ["Portrait", "People Photography", "Natural Light"]
+    },
+    {
+      "id": 3,
+      "slug": "landscape-photography-guide",
+      "title": "The Landscape Photography Guide: From Beginner to Pro",
+      "excerpt": "Explore stunning landscape photography techniques and learn how to capture nature's beauty through your lens.",
+      "content": "Landscape photography is a journey into the heart of nature. It's an art that requires patience, planning, and an artistic eye to see beauty everywhere.\n\n## Essential Gear\n\nA sturdy tripod is essential for sharp images. A wide-angle lens (16-35mm) is ideal for capturing sweeping scenes. ND and polarizing filters will open up new creative possibilities.\n\n## Timing Your Shoot\n\nBlue hour and golden hour are the best times. The light is soft and the colors rich. Don't be afraid to shoot in dramatic weather—clouds and storms add character to the image.\n\n## Artistic Composition\n\nLook for interesting foreground elements—a rock, a flower, or a path leading the eye toward the background. Use leading lines to create depth in the image.\n\n## Camera Settings\n\nUse f/8-f/16 for sharpness from foreground to background. Keep ISO as low as possible. Use Live View and zoom for precise manual focus.\n\n## Post-Processing\n\nShoot in RAW for maximum editing flexibility. Gently adjust light and color to bring out the scene's beauty without overdoing it.\n\n## Conclusion\n\nLandscape photography teaches you meditation and patience. Every photo is a memory from an unforgettable journey.",
+      "category": "Landscape",
+      "author": {
+        "name": "Ibrahim Hassan",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+        "role": "Nature Photographer"
+      },
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop",
+      "date": "10 January 2026",
+      "readTime": "10 min read",
+      "featured": true,
+      "tags": ["Landscape", "Outdoor Photography", "Nature"]
+    },
+    {
+      "id": 4,
+      "slug": "camera-settings-basics",
+      "title": "Camera Settings Basics: The Exposure Triangle",
+      "excerpt": "Understand the relationship between aperture, shutter speed, and ISO for full control over your images.",
+      "content": "The exposure triangle is the foundation of every successful photo. Understanding these three elements frees you from auto mode and gives you complete creative control.\n\n## Aperture\n\nAperture controls the amount of light and depth of field. Smaller numbers (f/1.4, f/2.8) mean a wider opening, more light, and a blurred background. Larger numbers (f/11, f/16) mean sharper focus throughout the image.\n\n## Shutter Speed\n\nShutter speed controls motion freezing. 1/500s freezes athletes, 1/60s suits still subjects, and slower speeds create creative blur effects.\n\n## ISO Sensitivity\n\nISO is the sensor's sensitivity to light. ISO 100-400 works for good lighting, higher for low light. The higher the ISO, the more noise in the image.\n\n## Balancing the Three\n\nThese elements are interconnected. If you increase one, you must adjust the others to maintain correct exposure. Practice in manual mode until this relationship becomes second nature.\n\n## Practical Tips\n\nStart with aperture priority mode (Av/A) to control depth of field, or shutter priority (Tv/S) to control motion.\n\n## Conclusion\n\nMastering the exposure triangle opens up a world of creativity. Practice daily and these settings will become second nature.",
+      "category": "Techniques",
+      "author": {
+        "name": "Dawood Khaled",
+        "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&h=100&fit=crop&crop=face",
+        "role": "Photography Instructor"
+      },
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&h=400&fit=crop",
+      "date": "8 January 2026",
+      "readTime": "7 min read",
+      "featured": false,
+      "tags": ["Camera Settings", "Beginners", "Techniques"]
+    },
+    {
+      "id": 5,
+      "slug": "photo-composition-rules",
+      "title": "Photo Composition Rules: How to Make Your Images More Engaging",
+      "excerpt": "Learn the fundamental composition rules that professional photographers use to create visually compelling images.",
+      "content": "Composition is the difference between an ordinary photo and an extraordinary one. It's how you arrange elements within the frame to guide the viewer's eye and convey your message.\n\n## Rule of Thirds\n\nDivide the frame into nine equal sections with two horizontal and two vertical lines. Place important elements along these lines or at their intersections for pleasing visual balance.\n\n## Leading Lines\n\nUse natural lines in the scene—a road, a river, a fence—to guide the viewer's eye toward the main subject.\n\n## Frame Within a Frame\n\nUse foreground elements as a natural frame: a door, a window, tree branches. This adds depth and focuses attention.\n\n## Symmetry and Patterns\n\nSymmetry creates a sense of calm and balance. Repeating patterns catch the eye. Breaking a pattern creates a powerful point of interest.\n\n## Negative Space\n\nDon't be afraid of empty space. The empty area around a subject can be just as powerful as the subject itself.\n\n## Breaking the Rules\n\nKnow the rules well, then break them consciously. Sometimes the unconventional shot is the most powerful.\n\n## Conclusion\n\nComposition is a skill that develops with practice. Shoot often, study the work of great photographers, and develop your artistic eye.",
+      "category": "Techniques",
+      "author": {
+        "name": "Layth Mahmoud",
+        "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop&crop=face",
+        "role": "Visual Artist"
+      },
+      "image": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=800&h=400&fit=crop",
+      "date": "5 January 2026",
+      "readTime": "9 min read",
+      "featured": false,
+      "tags": ["Composition", "Photography Rules", "Art"]
+    },
+    {
+      "id": 6,
+      "slug": "mobile-photography-tips",
+      "title": "Mobile Photography: How to Take Professional Photos With Your Phone",
+      "excerpt": "Discover how to turn your smartphone into a powerful photography tool with these tips and techniques.",
+      "content": "The best camera is the one you always have with you. Your smartphone can capture amazing photos if you know how to use it correctly.\n\n## Clean the Lens\n\nThe simplest tip and the most important. A dirty lens causes blurriness and loss of contrast. Wipe it with a soft cloth before every shoot.\n\n## Use Natural Light\n\nPhone cameras shine in good lighting. Shoot near windows or outdoors. Avoid harsh direct light.\n\n## Steady Your Hand\n\nShake is the enemy of a sharp photo. Hold the phone with both hands, brace your elbows against your body, or use a small tripod.\n\n## Avoid Digital Zoom\n\nDigital zoom loses quality. Instead, get closer to your subject or crop the image afterward.\n\n## Try Photography Apps\n\nApps like Lightroom Mobile and VSCO offer manual controls and powerful editing tools. Shoot in RAW if your phone supports it.\n\n## Composition Still Matters\n\nEnable the rule-of-thirds grid in your camera settings. Apply the same composition rules you'd use with a professional camera.\n\n## Conclusion\n\nYour phone is a powerful creative tool. Skill and an artistic eye matter more than gear. Shoot every day and watch yourself improve.",
+      "category": "Equipment",
+      "author": {
+        "name": "Jamal Abdullah",
+        "avatar": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=100&h=100&fit=crop&crop=face",
+        "role": "Photographer & Tech Reviewer"
+      },
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=400&fit=crop",
+      "date": "3 January 2026",
+      "readTime": "8 min read",
+      "featured": false,
+      "tags": ["Mobile Photography", "Tips", "Beginners"]
+    },
+    {
+      "id": 7,
+      "slug": "night-photography-techniques",
+      "title": "Night and Star Photography: Your Guide to Capturing the Night Sky",
+      "excerpt": "Learn how to photograph stars, the Milky Way, and enchanting nightscapes with these advanced techniques.",
+      "content": "Night photography is a magical world full of challenges and rewards. When the city sleeps, the sky wakes up with millions of stars waiting for your lens.\n\n## Essential Gear\n\nA camera with good high-ISO performance is essential. A fast lens (f/1.4-f/2.8) lets in as much light as possible. A sturdy, stable tripod is a must.\n\n## Shooting Settings\n\nStart with ISO 1600-3200, an aperture of f/2.8 or wider, and a shutter speed of 15-25 seconds. Use the 500 rule to avoid star trailing: divide 500 by your focal length to get the maximum exposure time.\n\n## Focusing in the Dark\n\nAutofocus doesn't work in the dark. Use manual focus on a bright star or a distant light. Zoom in on the screen to confirm sharpness.\n\n## Choosing a Location\n\nGet away from city light pollution. Use apps like Dark Sky Finder to find dark locations. A new moon is the best time to photograph stars.\n\n## Post-Processing\n\nRAW files are essential. Lift the shadows, adjust white balance, and increase contrast. Programs like Lightroom and Photoshop are essential tools.\n\n## Conclusion\n\nNight photography requires patience and experimentation. But when you see the Milky Way in your first shot, you'll realize all the effort was worth it.",
+      "category": "Lighting",
+      "author": {
+        "name": "Khaled Al-Faisal",
+        "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=100&h=100&fit=crop&crop=face",
+        "role": "Astrophotographer"
+      },
+      "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=400&fit=crop",
+      "date": "1 January 2026",
+      "readTime": "11 min read",
+      "featured": false,
+      "tags": ["Night Photography", "Stars", "Milky Way"]
+    },
+    {
+      "id": 8,
+      "slug": "street-photography-guide",
+      "title": "Street Photography: The Art of Capturing Everyday Life",
+      "excerpt": "Discover the secrets of street photography and how to document spontaneous moments of daily life.",
+      "content": "Street photography is the art of capturing life as it is—fleeting moments, honest expressions, and human stories unfolding in front of us every day.\n\n## The Right Camera\n\nA small, inconspicuous camera is best. A smartphone or a small mirrorless camera. Avoid bulky gear that draws attention.\n\n## Be Invisible\n\nWear ordinary clothes. Move slowly and confidently. Don't act like a photographer—be part of the scene. People ignore those who look natural.\n\n## Anticipation and Patience\n\nA great shot requires waiting for the right moment. Find beautiful light or an interesting background, then wait for the right person to walk in.\n\n## Respect Privacy\n\nStreet photography isn't intrusion. Be respectful. If someone asks not to be photographed, respect their wish. Avoid photographing children without permission.\n\n## Storytelling\n\nA good photo tells a story. Look for human interactions, contrasts, and emotions. Context and environment are part of the story.\n\n## Courage\n\nFear of getting close is natural but is an obstacle. The closer you get, the stronger the photo. Practice until getting close feels natural.\n\n## Conclusion\n\nStreet photography teaches you to see beauty in the ordinary. Take your camera out today and explore your city with fresh eyes.",
+      "category": "Portrait",
+      "author": {
+        "name": "Nader Saeed",
+        "avatar": "https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=100&h=100&fit=crop&crop=face",
+        "role": "Street Photographer"
+      },
+      "image": "https://images.unsplash.com/photo-1517732306149-e8f829eb588a?w=800&h=400&fit=crop",
+      "date": "28 December 2025",
+      "readTime": "7 min read",
+      "featured": false,
+      "tags": ["Street Photography", "Documentary", "Everyday Life"]
+    },
+    {
+      "id": 9,
+      "slug": "food-photography-basics",
+      "title": "Food Photography: How to Make Your Dishes Look Delicious",
+      "excerpt": "Learn professional food photography techniques to create mouth-watering, eye-catching images.",
+      "content": "Food photography is an art that blends cooking and photography. The goal is to make the viewer crave the dish through the image alone.\n\n## Natural Light\n\nSoft natural light is best for food photography. Place the dish near a large window. Use a white reflector to fill in shadows.\n\n## Shooting Angles\n\nThree main angles: directly overhead (90°) for flat dishes, 45° for dishes with height, and eye-level for drinks and layered items.\n\n## Plating and Styling\n\nPresentation matters a lot. Use simple plates that don't compete with the food. Add complementary decor: fresh herbs, cloth, wooden utensils.\n\n## Harmonious Colors\n\nColors affect appetite. Green and red enhance appetite; blue diminishes it. Choose background and prop colors carefully.\n\n## Speed Matters\n\nFood loses its appeal quickly—ice cream melts, steam disappears. Prepare everything in advance and shoot quickly.\n\n## Pro Tricks\n\nA splash of water on vegetables makes them look fresh. Oil adds shine. Glycerin spray creates stable water droplets.\n\n## Conclusion\n\nFood photography takes practice. Start with your everyday meals and gradually build your skills.",
+      "category": "Techniques",
+      "author": {
+        "name": "Hani Al-Shammari",
+        "avatar": "https://images.unsplash.com/photo-1552058544-f2b08422138a?w=100&h=100&fit=crop&crop=face",
+        "role": "Food Photographer"
+      },
+      "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=800&h=400&fit=crop",
+      "date": "25 December 2025",
+      "readTime": "8 min read",
+      "featured": false,
+      "tags": ["Food Photography", "Styling", "Lighting"]
+    },
+    {
+      "id": 10,
+      "slug": "wildlife-photography-tips",
+      "title": "Wildlife Photography: How to Capture Nature's Wonders",
+      "excerpt": "A comprehensive guide to photographing animals in their natural habitat, with tips on gear and technique.",
+      "content": "Wildlife photography is an exciting challenge that combines adventure and art. Every successful shot is the result of hours of waiting and patience.\n\n## Essential Gear\n\nA long telephoto lens (200-600mm) is essential to get close without disturbing the animals. A monopod or tripod for stability. A camera with fast autofocus.\n\n## Understanding Animal Behavior\n\nStudy the animal you want to photograph. Know its active hours, habitats, and behaviors. This knowledge positions you for the perfect moment.\n\n## Patience and Waiting\n\nWildlife won't wait for you. You might spend hours with no result. Enjoy your time in nature and consider every shot a bonus.\n\n## Respect the Animals\n\nDon't get too close. Don't feed animals. Don't disturb them for a photo. Animal welfare matters more than any picture.\n\n## Lighting and Timing\n\nEarly morning and evening are the best times. Animals are more active and the light is more beautiful. Avoid midday.\n\n## Camera Settings\n\nHigh shutter speed (1/500 or faster) to freeze motion. Continuous autofocus (AF-C) to track the animal. Burst mode for fast-moving moments.\n\n## Conclusion\n\nWildlife photography is a long journey of learning. Every day in nature teaches you something new about the animal world.",
+      "category": "Landscape",
+      "author": {
+        "name": "Omar Al-Rashid",
+        "avatar": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=100&h=100&fit=crop&crop=face",
+        "role": "Wildlife Photographer"
+      },
+      "image": "https://images.unsplash.com/photo-1549366021-9f761d450615?w=800&h=400&fit=crop",
+      "date": "22 December 2025",
+      "readTime": "10 min read",
+      "featured": false,
+      "tags": ["Wildlife", "Nature", "Animals"]
+    },
+    {
+      "id": 11,
+      "slug": "black-white-photography",
+      "title": "Black and White Photography: The Art of Light and Shadow",
+      "excerpt": "Discover the beauty of monochrome photography and how to create powerful images without color.",
+      "content": "Black and white photography strips an image of color to reveal its essence: light, shadow, form, and emotion.\n\n## Why Black and White?\n\nRemoving color eliminates distraction and focuses attention on the essential elements: composition, texture, contrast, and expression. Some scenes speak more powerfully without color.\n\n## When to Choose Black and White\n\nHigh-contrast scenes, rich textures, and strong shapes. Emotional portraits. Architectural scenes. Dramatic weather.\n\n## Thinking in Black and White\n\nLearn to see the scene in shades of gray. What will become white? Black? Mid-gray? This vision comes with practice.\n\n## Proper Exposure\n\nControlling the range of gray tones matters. Use the histogram to ensure detail exists in both highlights and shadows. Avoid overexposure.\n\n## Post-Processing\n\nConverting to black and white isn't just desaturating. Control how each color transforms into a shade of gray. Experiment with preset filters.\n\n## Inspiration\n\nStudy the work of black-and-white greats: Ansel Adams, Henri Cartier-Bresson, Sebastião Salgado. Learn from their unique vision.\n\n## Conclusion\n\nBlack and white isn't an absence of color—it's a powerful presence of light. Try it and discover a new world of beauty.",
+      "category": "Techniques",
+      "author": {
+        "name": "Faris Al-Ali",
+        "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=100&h=100&fit=crop&crop=face",
+        "role": "Photographic Artist"
+      },
+      "image": "https://images.unsplash.com/photo-1533134486753-c833f0ed4866?w=800&h=400&fit=crop",
+      "date": "20 December 2025",
+      "readTime": "9 min read",
+      "featured": false,
+      "tags": ["Black and White", "Contrast", "Art"]
+    },
+    {
+      "id": 12,
+      "slug": "photo-editing-lightroom",
+      "title": "Photo Editing Basics in Lightroom",
+      "excerpt": "Learn how to use Adobe Lightroom to enhance your photos and develop a distinctive visual style.",
+      "content": "Lightroom is the gold standard for photo editing. Whether you're a beginner or a pro, this program provides everything you need.\n\n## Importing and Organizing\n\nStart by creating an effective organization system. Use keywords, ratings, and collections. Good organization saves hours later.\n\n## Basic Adjustments\n\nStart with correcting exposure and white balance, then contrast, highlights, and shadows. These basic adjustments improve most photos.\n\n## The Tone Curve\n\nA powerful tool for fine control over contrast and color. A gentle S-curve adds depth. Learn to use individual RGB curves.\n\n## HSL and Color\n\nControl each color individually: its saturation, luminance, and hue. This gives you complete creative control over the image's look.\n\n## Sharpening and Noise Reduction\n\nEvery image needs some sharpening. Reduce noise in high-ISO shots. Balance matters—don't overdo it.\n\n## Developing a Personal Style\n\nDevelop a distinctive visual style. Save it as a preset and use it as a starting point. Your style sets your work apart from others.\n\n## Conclusion\n\nPhoto editing is an essential part of digital photography. Learning Lightroom is an investment that will stay with you throughout your photographic journey.",
+      "category": "Equipment",
+      "author": {
+        "name": "Sami Al-Harbi",
+        "avatar": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=100&h=100&fit=crop&crop=face",
+        "role": "Photo Editing Expert"
+      },
+      "image": "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=800&h=400&fit=crop",
+      "date": "18 December 2025",
+      "readTime": "12 min read",
+      "featured": false,
+      "tags": ["Lightroom", "Photo Editing", "Software"]
+    },
+    {
+      "id": 13,
+      "slug": "macro-photography-world",
+      "title": "The World of Macro Photography: Discover Hidden Details",
+      "excerpt": "Dive into the world of close-up photography and discover the beauty of small details invisible to the naked eye.",
+      "content": "Macro photography reveals a hidden world of beauty. Dewdrops, insect eyes, flower petals—details the naked eye can't see.\n\n## Specialized Gear\n\nA true macro lens (1:1 ratio) is best. Alternatives: extension tubes or close-up lenses. Ring lighting is very useful.\n\n## Depth-of-Field Challenges\n\nDepth of field is extremely shallow in macro. Even f/16 may not be enough. Technique: focus stacking—several images at different focus points blended into one.\n\n## Precise Lighting\n\nSoft, diffused natural light is ideal. Use small reflectors. A macro flash or LED offers more control. Avoid harsh shadows.\n\n## Absolute Stability\n\nAny shake ruins the shot. A heavy tripod, a remote trigger, mirror lock-up. Some photographers even hold their breath!\n\n## Finding Subjects\n\nNature is full of subjects. Insects in early morning (slow from the cold), flowers after rain, autumn leaves. Look down more often.\n\n## Patience and Persistence\n\nMacro demands exceptional patience. The insect flies away, the wind moves the flower. Keep trying.\n\n## Conclusion\n\nMacro changes how you see the world. Suddenly, your garden becomes a tropical forest full of wonders.",
+      "category": "Techniques",
+      "author": {
+        "name": "Rami Al-Khatib",
+        "avatar": "https://images.unsplash.com/photo-1548372290-8d01b6c8e78c?w=100&h=100&fit=crop&crop=face",
+        "role": "Macro Photographer"
+      },
+      "image": "https://images.unsplash.com/photo-1550159930-40066082a4fc?w=800&h=400&fit=crop",
+      "date": "15 December 2025",
+      "readTime": "10 min read",
+      "featured": false,
+      "tags": ["Macro", "Details", "Insects"]
+    },
+    {
+      "id": 14,
+      "slug": "long-exposure-photography",
+      "title": "Long Exposure: How to Photograph Motion and Time",
+      "excerpt": "Learn long exposure techniques to create creative images that show motion in a beautifully artistic way.",
+      "content": "Long exposure turns seconds into works of art. Water becomes silk, cars become streaks of light, and clouds become ribbons across the sky.\n\n## Essential Gear\n\nA stable tripod is essential. ND filters to reduce light during the day. A remote trigger to avoid camera shake.\n\n## Calculating Exposure\n\nA 10-stop ND filter extends exposure 1000 times. If the natural exposure is 1/125, it becomes 8 seconds. Use calculation apps.\n\n## Ideal Subjects\n\nWaterfalls and rivers turn into silk. Car lights create streaks. Moving clouds add drama. The sea turns into mist.\n\n## Focus Before the Filter\n\nFocus before attaching a dark ND filter—the camera can't see through it. Use manual focus and don't change it after attaching the filter.\n\n## Experimentation and Learning\n\nThere's no perfect exposure for every scene. Try different times. Review results on screen. Adjust and repeat.\n\n## Unlimited Creativity\n\nTry shooting at different times: sunset, blue hour, night. Each time gives different results.\n\n## Conclusion\n\nLong exposure teaches you to see the world differently. Time becomes a material you shape with your creativity.",
+      "category": "Lighting",
+      "author": {
+        "name": "Bassem Al-Masry",
+        "avatar": "https://images.unsplash.com/photo-1583195764036-6dc248ac07d9?w=100&h=100&fit=crop&crop=face",
+        "role": "Fine Art Photographer"
+      },
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&h=400&fit=crop",
+      "date": "12 December 2025",
+      "readTime": "8 min read",
+      "featured": false,
+      "tags": ["Long Exposure", "ND Filter", "Creativity"]
+    },
+    {
+      "id": 15,
+      "slug": "wedding-photography-guide",
+      "title": "Wedding Photography: A Professional Photographer's Guide",
+      "excerpt": "Learn the fundamentals of wedding photography, from preparation to delivering the final images.",
+      "content": "Wedding photography is a huge responsibility. A day that never repeats, moments that never return, and memories that will last forever. The pressure is high, but so is the reward.\n\n## Preparing in Advance\n\nMeet with the couple. Understand their expectations and vision. Visit the venue beforehand. Know the day's schedule in detail.\n\n## Gear and Backup\n\nAt least two cameras. A variety of lenses (24-70, 70-200, 35, 85). Multiple flashes. Extra batteries and memory cards. No room for failure.\n\n## Key Moments\n\nPreparations, the entrance, the first kiss, the first dance, cutting the cake, the bouquet toss. Be ready for every moment and don't miss any.\n\n## Working With Light\n\nChurches and halls often have difficult lighting. Learn to use bounce flash. Look for natural light sources.\n\n## Working With People\n\nYou're the leader for group photo sessions. Be firm but kind. Know the names of important family members.\n\n## Processing and Delivery\n\nThousands of photos need sorting and editing. Set a realistic timeline. Delivering on time builds your reputation.\n\n## Conclusion\n\nWedding photography combines every photography skill. It's a big challenge, but also an opportunity to create art that lasts for generations.",
+      "category": "Portrait",
+      "author": {
+        "name": "Mansour Al-Zahrani",
+        "avatar": "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?w=100&h=100&fit=crop&crop=face",
+        "role": "Wedding Photographer"
+      },
+      "image": "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=400&fit=crop",
+      "date": "10 December 2025",
+      "readTime": "11 min read",
+      "featured": false,
+      "tags": ["Wedding", "Events", "Professional"]
+    },
+    {
+      "id": 16,
+      "slug": "drone-photography-basics",
+      "title": "Drone Photography: A New Perspective on the World",
+      "excerpt": "Discover the world of aerial photography and learn the basics of using a drone to capture shots from unique angles.",
+      "content": "Drone photography opens up new horizons. Angles that were once impossible are now within your reach. A bird's-eye view reveals hidden beauty.\n\n## Choosing the Right Drone\n\nDJI leads the market with models like Mini, Air, and Mavic. Camera quality, flight time, and stability are important factors. Start with a beginner-friendly drone.\n\n## Laws and Regulations\n\nKnow your country's laws. Most countries require registration and a license. There are no-fly zones around airports and government facilities. Ignorance of the law is no excuse.\n\n## Control and Flying\n\nPractice in open areas first. Learn smooth takeoffs and landings. Understand the different flight modes. Practice makes perfect.\n\n## Composition From Above\n\nPatterns and shapes look different from above. Look for symmetry, leading lines, and contrasts. Shadows become composition elements.\n\n## Timing and Lighting\n\nGolden hour from the air is even more magical. Long shadows add depth. A cloudy day gives good, even lighting.\n\n## Safety First\n\nNever fly over people. Always monitor battery life. Return home before power runs out. Stormy weather is dangerous.\n\n## Conclusion\n\nThe drone is a powerful creative tool. Use it responsibly and discover a new world of beauty.",
+      "category": "Equipment",
+      "author": {
+        "name": "Faisal Al-Dosari",
+        "avatar": "https://images.unsplash.com/photo-1618077360395-f3068be8e001?w=100&h=100&fit=crop&crop=face",
+        "role": "Aerial Photographer"
+      },
+      "image": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=800&h=400&fit=crop",
+      "date": "8 December 2025",
+      "readTime": "9 min read",
+      "featured": false,
+      "tags": ["Drone", "Aerial Photography", "DJI"]
+    },
+    {
+      "id": 17,
+      "slug": "product-photography-essentials",
+      "title": "Product Photography: The Essentials of Commercial Photography",
+      "excerpt": "Learn how to photograph products professionally for your online store or business clients.",
+      "content": "Product photography is an art that combines technical precision with visual creativity. A great product photo sells itself.\n\n## Setting Up a Studio\n\nYou don't need a huge studio. A white table, a white or gray background, and good lighting are enough to start. A light box is an excellent option for small products.\n\n## Ideal Lighting\n\nSoft, diffused lighting removes harsh shadows. Use a softbox or white sheets to soften the light. Side lighting brings out texture and detail.\n\n## Background and Styling\n\nA clean white background is the e-commerce standard. But don't be afraid to experiment: wood, marble, or fabric can add character to the product.\n\n## Multiple Angles\n\nShoot the product from several angles: front, side, top, and close-up detail shots. Customers want to see everything before buying.\n\n## Editing and Retouching\n\nRemoving dust and small flaws is essential. Correct colors to match the actual product. Consistency in style across all products matters.\n\n## Conclusion\n\nProduct photography is an investment that pays off many times over. Professional photos mean more trust and higher sales.",
+      "category": "Techniques",
+      "author": {
+        "name": "Loai Al-Saleh",
+        "avatar": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=100&h=100&fit=crop&crop=face",
+        "role": "Commercial Photographer"
+      },
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&h=400&fit=crop",
+      "date": "5 December 2025",
+      "readTime": "8 min read",
+      "featured": false,
+      "tags": ["Product Photography", "Commercial", "Studio"]
+    },
+    {
+      "id": 18,
+      "slug": "architecture-photography",
+      "title": "Architecture Photography: How to Capture the Spirit of Buildings",
+      "excerpt": "Discover techniques for photographing buildings and architecture artistically, highlighting their beauty and details.",
+      "content": "Architecture photography turns buildings into works of art. Lines, shapes, light, and shadow dance together to create captivating images.\n\n## The Right Lenses\n\nA wide-angle lens (16-35mm) is essential for capturing entire buildings. A tilt-shift lens corrects distortion and keeps lines straight. A telephoto lens for facade details.\n\n## Handling Distortion\n\nSlanted lines are a common problem. Shoot from mid-building height if possible, or correct the distortion during post-processing.\n\n## Lighting and Timing\n\nSide light brings out texture and depth. Blue hour is ideal for illuminated buildings. Overcast daylight gives soft, even lighting.\n\n## Lines and Shapes\n\nLook for repeating patterns, symmetry, and leading lines. Architecture is rich in natural composition elements.\n\n## Architectural Details\n\nDon't settle for the wide shot alone. Get close to details: windows, columns, ornaments, staircases. Every detail tells a story.\n\n## Conclusion\n\nArchitecture photography teaches you to see beauty in the familiar. Every building has a character waiting to be discovered.",
+      "category": "Landscape",
+      "author": {
+        "name": "Tariq Al-Nuaimi",
+        "avatar": "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=100&h=100&fit=crop&crop=face",
+        "role": "Architectural Photographer"
+      },
+      "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&h=400&fit=crop",
+      "date": "2 December 2025",
+      "readTime": "9 min read",
+      "featured": false,
+      "tags": ["Architecture", "Buildings", "Engineering"]
+    },
+    {
+      "id": 19,
+      "slug": "sports-action-photography",
+      "title": "Sports and Action Photography: Freezing the Decisive Moment",
+      "excerpt": "Learn techniques for photographing sporting events and fast motion with professional clarity and precision.",
+      "content": "Sports photography requires quick reflexes and the right gear. The moment of victory or defeat happens in a split second.\n\n## Fast Gear\n\nA camera with fast autofocus and a high continuous shooting rate (10+ fps). Fast telephoto lenses (70-200 f/2.8, 400 f/2.8). Fast memory cards.\n\n## Camera Settings\n\nA shutter speed of at least 1/1000s to freeze motion. Continuous autofocus (AF-C) with tracking. Auto ISO with a max limit. Burst shooting mode.\n\n## Anticipating Action\n\nKnow the game. Anticipate where the decisive moment will happen. Pre-focus on that spot. Experience builds this intuition.\n\n## Position and Angle\n\nLook for a spot that offers a clean background. Sunlight behind or to the side of you. A low angle makes the athlete look more powerful.\n\n## Expressions and Emotion\n\nMotion isn't the only thing that matters. Look for moments of emotion: joy, pain, focus. These are the photos that endure.\n\n## Conclusion\n\nSports photography is a marathon, not a sprint. Every game is a chance to learn and improve. Keep trying.",
+      "category": "Portrait",
+      "author": {
+        "name": "Ahmed Al-Shahri",
+        "avatar": "https://images.unsplash.com/photo-1580518324671-c2f0833a3af3?w=100&h=100&fit=crop&crop=face",
+        "role": "Sports Photographer"
+      },
+      "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&h=400&fit=crop",
+      "date": "28 November 2025",
+      "readTime": "10 min read",
+      "featured": false,
+      "tags": ["Sports", "Action", "Speed"]
+    },
+    {
+      "id": 20,
+      "slug": "flash-photography-basics",
+      "title": "Flash Photography Basics: Complete Lighting Control",
+      "excerpt": "Understand how to use an external flash to create professional lighting in any situation.",
+      "content": "Flash is a powerful tool that frees you from the constraints of available light. With the right understanding, it becomes a photographer's best friend.\n\n## Types of Flash\n\nA built-in flash is limited in power and flexibility. An external flash (speedlight) is more powerful and can be aimed. Studio strobes offer complete control.\n\n## Bounce Flash\n\nDon't point the flash directly at the face. Bounce it off the ceiling or a wall for soft, natural-looking light. A white ceiling is the best reflector.\n\n## TTL vs. Manual\n\nTTL measures light automatically—fast and convenient. Manual mode gives complete control and consistent results. Learn both.\n\n## Balancing Flash With Ambient Light\n\nFlash shouldn't overpower natural light. Reduce its power so it complements the available light rather than replacing it.\n\n## High-Speed Sync\n\nTo shoot at a shutter speed faster than the sync speed, enable HSS. Useful for filling shadows in strong sunlight.\n\n## Conclusion\n\nFlash opens up limitless possibilities. Start with the basics, then go deeper gradually. Practice is the key.",
+      "category": "Lighting",
+      "author": {
+        "name": "Majed Al-Qahtani",
+        "avatar": "https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?w=100&h=100&fit=crop&crop=face",
+        "role": "Studio Photographer"
+      },
+      "image": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=800&h=400&fit=crop",
+      "date": "25 November 2025",
+      "readTime": "8 min read",
+      "featured": false,
+      "tags": ["Flash", "Artificial Lighting", "Speedlight"]
+    },
+    {
+      "id": 21,
+      "slug": "travel-photography-tips",
+      "title": "Travel Photography: How to Document Your Trips With Unforgettable Photos",
+      "excerpt": "Practical travel photography tips to help you capture the essence of every place you visit.",
+      "content": "Travel photography combines every genre: landscapes, street, portraits, food, and architecture. Every trip is a chance to learn.\n\n## Preparing for the Trip\n\nResearch your destination in advance. Know the best photo spots and their timing. But be ready for surprises—the best shots are often unplanned.\n\n## Light Gear\n\nTravel means a lot of walking. One camera and two lenses are enough for most situations. A comfortable, lightweight bag is essential.\n\n## Respecting Local Culture\n\nAsk permission before photographing people. Respect sacred places. Learn a few words of the local language. Communication opens doors.\n\n## Wake Up Early\n\nThe best light and fewest crowds are in the early morning. Sacrificing sleep is worth it for unique shots.\n\n## Tell a Story\n\nDon't just photograph landmarks. Photograph daily life, local food, small details. These are the soul of a place.\n\n## Conclusion\n\nTravel photography deepens the journey. You look more, notice more, remember more. Traveling with a camera is an entirely different experience.",
+      "category": "Landscape",
+      "author": {
+        "name": "Yasser Al-Otaibi",
+        "avatar": "https://images.unsplash.com/photo-1590086782957-93c06ef21604?w=100&h=100&fit=crop&crop=face",
+        "role": "Travel Photographer"
+      },
+      "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=400&fit=crop",
+      "date": "22 November 2025",
+      "readTime": "9 min read",
+      "featured": false,
+      "tags": ["Travel", "Trips", "Documentation"]
+    },
+    {
+      "id": 22,
+      "slug": "color-theory-photography",
+      "title": "Color Theory in Photography: How to Use Color Wisely",
+      "excerpt": "Understand how color affects a viewer's emotions and how to use it to enhance your photos.",
+      "content": "Color is a powerful visual language. Understanding it elevates your photos from good to exceptional.\n\n## The Color Wheel\n\nPrimary colors (red, blue, yellow) and secondary colors (orange, green, purple). Complementary colors create strong contrast. Adjacent colors create harmony.\n\n## Color Psychology\n\nRed: energy and emotion. Blue: calm and trust. Green: nature and balance. Yellow: happiness and optimism. Use these meanings in your photos.\n\n## Color Contrast\n\nOpposing colors (red/green, blue/orange) grab attention. Use them to highlight your subject or create visual drama.\n\n## Color Harmony\n\nSimilar, adjacent colors create a sense of unity and calm. Suitable for peaceful, contemplative images.\n\n## Color Temperature\n\nWarm colors (red, orange) advance toward the viewer. Cool colors (blue, green) recede. Use this to create depth.\n\n## Conclusion\n\nColor awareness changes how you see and shoot. Start by noticing colors everywhere around you.",
+      "category": "Techniques",
+      "author": {
+        "name": "Daham Al-Husseini",
+        "avatar": "https://images.unsplash.com/photo-1504257432389-52343af06ae3?w=100&h=100&fit=crop&crop=face",
+        "role": "Visual Artist"
+      },
+      "image": "https://images.unsplash.com/photo-1502691876148-a84978e59af8?w=800&h=400&fit=crop",
+      "date": "18 November 2025",
+      "readTime": "7 min read",
+      "featured": false,
+      "tags": ["Color", "Theory", "Composition"]
+    },
+    {
+      "id": 23,
+      "slug": "newborn-baby-photography",
+      "title": "Newborn Photography: The Art of Capturing Innocence",
+      "excerpt": "Learn techniques for photographing newborn babies safely and professionally.",
+      "content": "Newborn photography is a delicate specialty that requires patience, caution, and skill. Every baby is unique, and every session is a new adventure.\n\n## Safety First\n\nThe baby's safety comes above all else. Never place them in unsafe positions. Always wash your hands. Keep the room warm (around 78-82°F).\n\n## Ideal Timing\n\nThe best age for shooting is 5-14 days old. The baby is still sleepy and flexible. After that, they become more alert and harder to pose.\n\n## A Comfortable Environment\n\nWhite noise soothes the baby. Soft natural light. Avoid flash. Keep parents nearby for emotional comfort.\n\n## Safe Poses\n\nThe classic basket and curled pose is safe and beloved. Avoid complex poses you see on Pinterest—many of them are composited in Photoshop.\n\n## Props and Colors\n\nCalm colors and simple props. The baby is the star. Avoid excessive decor that distracts attention.\n\n## Conclusion\n\nNewborn photography is a big responsibility and an even bigger reward. Every photo is a memory the family will cherish forever.",
+      "category": "Portrait",
+      "author": {
+        "name": "Nayef Al-Mutairi",
+        "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=100&h=100&fit=crop&crop=face",
+        "role": "Newborn Photographer"
+      },
+      "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=800&h=400&fit=crop",
+      "date": "15 November 2025",
+      "readTime": "10 min read",
+      "featured": false,
+      "tags": ["Newborn", "Babies", "Portrait"]
+    },
+    {
+      "id": 24,
+      "slug": "real-estate-photography",
+      "title": "Real Estate Photography: How to Make a Home Sell Itself",
+      "excerpt": "Learn real estate photography techniques that make homes look their absolute best.",
+      "content": "Real estate photography is a profitable and in-demand field. A great photo can be the difference between a quick sale and a stagnant listing.\n\n## Essential Gear\n\nA wide-angle lens (16-35mm) is essential to show off spaces. A tripod for sharp, level shots. A flash to control lighting.\n\n## Preparing the Space\n\nClean and declutter. Add simple touches: flowers, magazines, neatly folded towels. Open curtains and doors to show flow.\n\n## Balanced Lighting\n\nThe challenge: balancing bright window light with a darker interior. Use HDR or supplemental lighting. Avoid blown-out windows.\n\n## Correct Angles\n\nShoot from a room's corner to show maximum space. Camera height around 4 feet. Keep vertical lines straight.\n\n## Exterior Shots\n\nBlue hour with the home's lights on creates warm, inviting images. Photograph the garden, pool, and amenities.\n\n## Conclusion\n\nReal estate photography combines technique and marketing. Understand what a buyer wants to see and present it in its best light.",
+      "category": "Techniques",
+      "author": {
+        "name": "Abdullah Al-Ghamdi",
+        "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=100&h=100&fit=crop&crop=face",
+        "role": "Real Estate Photographer"
+      },
+      "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=400&fit=crop",
+      "date": "12 November 2025",
+      "readTime": "8 min read",
+      "featured": false,
+      "tags": ["Real Estate", "Commercial", "Wide Angle"]
+    },
+    {
+      "id": 25,
+      "slug": "raw-vs-jpeg-explained",
+      "title": "RAW vs. JPEG: When to Use Each",
+      "excerpt": "Understand the difference between the two most common image formats and choose the one that fits your needs.",
+      "content": "The RAW vs. JPEG debate is as old as digital photography itself. Each has its place and its moment.\n\n## What Is RAW?\n\nRAW is all the data captured by the sensor, unprocessed. A large file containing the maximum possible information. It requires post-processing.\n\n## What Is JPEG?\n\nJPEG is a compressed, in-camera processed file. Smaller in size and ready to use immediately. But it loses some data.\n\n## Advantages of RAW\n\nHuge editing flexibility. Easily correct exposure. Adjust white balance after shooting. Recover detail from shadows and highlights.\n\n## Advantages of JPEG\n\nSmall files mean more storage space. Ready to share immediately. In-camera processing is often excellent. Ideal for quick shots and large volumes.\n\n## When to Use Each\n\nRAW: professional shoots, difficult lighting, when you want maximum quality. JPEG: everyday snapshots, limited storage, when speed is required.\n\n## Conclusion\n\nMany photographers shoot RAW+JPEG together. Try both and choose what fits your style and needs.",
+      "category": "Equipment",
+      "author": {
+        "name": "Kareem Al-Fahd",
+        "avatar": "https://images.unsplash.com/photo-1534030347209-467a5b0ad3e6?w=100&h=100&fit=crop&crop=face",
+        "role": "Technical Expert"
+      },
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=400&fit=crop",
+      "date": "8 November 2025",
+      "readTime": "6 min read",
+      "featured": false,
+      "tags": ["RAW", "JPEG", "Image Formats"]
+    },
+    {
+      "id": 26,
+      "slug": "self-portrait-photography",
+      "title": "Self-Portrait Photography: Be Your Own Subject",
+      "excerpt": "Learn how to photograph yourself professionally and creatively without needing an assistant.",
+      "content": "Self-portraiture is an ancient art renewed through photography. You are both the photographer and the model.\n\n## Why Self-Portraits?\n\nAlways-available free practice. Self-exploration and artistic expression. Developing your skills in lighting, composition, and editing.\n\n## Necessary Gear\n\nA stable tripod. A remote trigger or self-timer. A mirror to monitor your pose. A camera-control app on your phone is very useful.\n\n## Focusing Without Being There\n\nPlace something in your spot to focus on (a chair, a pillow). Use manual focus and lock it, or use eye-tracking mode if available.\n\n## Lighting and Poses\n\nExperiment freely—no one is waiting on you. Play with light and shadow. Try expressions and poses you wouldn't ask of someone else.\n\n## Editing and Style\n\nSelf-portraiture is a space for experimentation. Try new editing styles. Develop your own visual voice.\n\n## Conclusion\n\nSelf-portraiture is a journey of self-discovery. Every photo teaches you something about yourself and your art.",
+      "category": "Portrait",
+      "author": {
+        "name": "Sultan Al-Rajhi",
+        "avatar": "https://images.unsplash.com/photo-1557862921-37829c790f19?w=100&h=100&fit=crop&crop=face",
+        "role": "Photographic Artist"
+      },
+      "image": "https://images.unsplash.com/photo-1554080353-a576cf803bda?w=800&h=400&fit=crop",
+      "date": "5 November 2025",
+      "readTime": "7 min read",
+      "featured": false,
+      "tags": ["Self-Portrait", "Creativity", "Expression"]
+    },
+    {
+      "id": 27,
+      "slug": "lens-guide-beginners",
+      "title": "Lens Guide for Beginners: How to Choose Your First Lens",
+      "excerpt": "Understand the different types of lenses and choose the best one for your shooting style and needs.",
+      "content": "The lens matters more than the camera body in many cases. Understanding lenses helps you make wise purchasing decisions.\n\n## Focal Length\n\nMeasured in millimeters (mm). Smaller numbers = wider angle. Larger numbers = more zoom. 50mm is roughly what the human eye sees.\n\n## Aperture\n\nf/1.8 is wider than f/4. A wider aperture means more light + a more blurred background. Fast lenses (f/1.4-f/2.8) are more expensive and larger.\n\n## The 50mm Lens\n\nThe \"nifty fifty\" (50mm f/1.8) is the best investment for beginners. Cheap, light, and gives great results. It teaches you movement and composition.\n\n## Zoom vs. Prime Lenses\n\nZooms are flexible and practical. Primes are lighter, faster, and sharper. For learning, primes force you to think more.\n\n## Lenses by Specialty\n\nPortrait: 85mm. Landscape: 16-35mm. Macro: a dedicated macro lens. Wildlife: 100-400mm.\n\n## Conclusion\n\nDon't buy lenses you don't need. Start with one lens and master it before moving to the next. The best lens is the one you actually use.",
+      "category": "Equipment",
+      "author": {
+        "name": "Fahd Al-Subaie",
+        "avatar": "https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?w=100&h=100&fit=crop&crop=face",
+        "role": "Gear Reviewer"
+      },
+      "image": "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=800&h=400&fit=crop",
+      "date": "2 November 2025",
+      "readTime": "9 min read",
+      "featured": false,
+      "tags": ["Lenses", "Gear", "Beginners"]
+    },
+    {
+      "id": 28,
+      "slug": "minimalist-photography",
+      "title": "Minimalist Photography: The Power of Empty Space",
+      "excerpt": "Discover the beauty of simplicity in photography and how to create powerful images with few elements.",
+      "content": "Less is more. Minimalist photography strips away everything unnecessary to let the essence speak.\n\n## The Philosophy of Simplicity\n\nEvery element in the frame should have a purpose. If it doesn't add anything, it subtracts. Empty space isn't empty—it breathes.\n\n## Negative Space\n\nThe space around a subject gives it power and presence. Don't be afraid to leave 80% of the frame empty. A small subject in a vast empty space draws attention.\n\n## Lines and Shapes\n\nMinimalist photography relies on geometry. A single line, a single shape, a repeating pattern. Simplicity in the elements, power in the execution.\n\n## Limited Colors\n\nFew colors, or a single color. Black and white is naturally suited to minimalism. One color against a neutral background.\n\n## Finding Subjects\n\nModern buildings, empty skies, isolated everyday objects. Simplicity is everywhere for those who know how to look.\n\n## Conclusion\n\nMinimalist photography isn't easy. Removing elements is harder than adding them. But the result is unforgettable images.",
+      "category": "Techniques",
+      "author": {
+        "name": "Rashed Al-Jasser",
+        "avatar": "https://images.unsplash.com/photo-1545167622-3a6ac756afa4?w=100&h=100&fit=crop&crop=face",
+        "role": "Visual Artist"
+      },
+      "image": "https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?w=800&h=400&fit=crop",
+      "date": "28 October 2025",
+      "readTime": "6 min read",
+      "featured": false,
+      "tags": ["Simplicity", "Minimalist", "Composition"]
+    }
+  ],
+  "categories": [
+    {
+      "name": "Lighting",
+      "count": 3,
+      "color": "emerald"
+    },
+    {
+      "name": "Portrait",
+      "count": 3,
+      "color": "purple"
+    },
+    {
+      "name": "Landscape",
+      "count": 2,
+      "color": "blue"
+    },
+    {
+      "name": "Techniques",
+      "count": 5,
+      "color": "orange"
+    },
+    {
+      "name": "Equipment",
+      "count": 3,
+      "color": "emerald"
+    }
+  ],
+  "siteInfo": {
+    "name": "Adasa",
+    "tagline": "The World of Photography",
+    "description": "A blog dedicated to the art of photography, sharing professional secrets and practical tips to help you develop your skills.",
+    "email": "hello@adasah.com",
+    "social": {
+      "twitter": "https://twitter.com/adasah",
+      "github": "https://github.com/adasah",
+      "linkedin": "https://linkedin.com/company/adasah",
+      "youtube": "https://youtube.com/@adasah"
+    }
+  }
+}
