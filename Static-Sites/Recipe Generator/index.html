@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What's For Dinner</title>
+    <link rel="icon" href="images/favicon.png" />
+
+    <!-- Google Fonts Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <body class="bg-linear-to-br from-orange-50 via-amber-50 to-yellow-50">
+    <header id="header" class="bg-white shadow-sm border-b border-orange-100">
+      <div class="max-w-7xl mx-auto px-6 py-4">
+        <div class="flex items-center justify-between">
+          <div class="flex items-center space-x-3">
+            <div
+              class="w-12 h-12 rounded-full bg-linear-to-br from-orange-500 to-red-500 flex items-center justify-center shadow-lg"
+            >
+              <i class="fa-solid fa-utensils text-white text-xl"></i>
+            </div>
+            <div>
+              <h1 class="text-lg md:text-2xl font-bold text-gray-900">
+                What's For Dinner
+              </h1>
+              <p class="text-xs md:text-sm text-gray-500">
+                Your daily meal inspiration
+              </p>
+            </div>
+          </div>
+          <!-- Desktop Navigation -->
+          <div class="hidden md:flex items-center space-x-6">
+            <button
+              class="text-gray-600 hover:text-orange-600 transition cursor-pointer"
+            >
+              <i class="fa-solid fa-bookmark text-base md:text-xl"></i>
+            </button>
+            <button
+              class="text-gray-600 hover:text-orange-600 transition cursor-pointer"
+            >
+              <i class="fa-solid fa-clock-rotate-left text-base md:text-xl"></i>
+            </button>
+            <button
+              class="text-gray-600 hover:text-orange-600 transition cursor-pointer"
+            >
+              <i class="fa-solid fa-gear text-base md:text-xl"></i>
+            </button>
+            <img
+              src="images/avatar-1.jpg"
+              alt="Profile"
+              class="w-10 h-10 rounded-full border-2 border-orange-300 cursor-pointer"
+            />
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <button
+            id="mobile-menu-btn"
+            class="md:hidden text-gray-600 hover:text-orange-600 transition cursor-pointer"
+          >
+            <i class="fa-solid fa-bars text-2xl"></i>
+          </button>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div
+          id="mobile-menu"
+          class="hidden md:hidden mt-4 pb-4 border-t border-orange-100 pt-4"
+        >
+          <div class="flex flex-col space-y-4">
+            <button
+              class="flex items-center text-gray-600 hover:text-orange-600 transition cursor-pointer"
+            >
+              <i class="fa-solid fa-bookmark text-xl mr-3"></i>
+              <span>Saved Recipes</span>
+            </button>
+            <button
+              class="flex items-center text-gray-600 hover:text-orange-600 transition cursor-pointer"
+            >
+              <i class="fa-solid fa-clock-rotate-left text-xl mr-3"></i>
+              <span>Recent</span>
+            </button>
+            <button
+              class="flex items-center text-gray-600 hover:text-orange-600 transition cursor-pointer"
+            >
+              <i class="fa-solid fa-gear text-xl mr-3"></i>
+              <span>Settings</span>
+            </button>
+            <button
+              class="flex items-center text-gray-600 hover:text-orange-600 transition cursor-pointer"
+            >
+              <img
+                src="images/avatar-1.jpg"
+                alt="Profile"
+                class="w-8 h-8 rounded-full border-2 border-orange-300 mr-3"
+              />
+              <span>Profile</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content" class="max-w-7xl mx-auto px-6 py-8">
+      <section
+        id="recipe-display-section"
+        class="bg-white rounded-3xl shadow-xl overflow-hidden mb-8 border border-orange-100 hidden"
+      >
+        <div class="grid lg:grid-cols-5 gap-0 lg:h-[750px]">
+          <div
+            class="lg:col-span-2 h-[400px] lg:h-full overflow-hidden relative"
+          >
+            <img
+              id="recipe-image"
+              class="w-full h-full object-cover"
+              src="https://storage.googleapis.com/uxpilot-auth.appspot.com/c987e47793-062e728ad4ccc343589c.png"
+              alt="gourmet spaghetti carbonara pasta dish, professional food photography, appetizing"
+            />
+            <div
+              class="absolute top-6 left-6 bg-white rounded-full px-4 py-2 shadow-lg"
+            >
+              <div class="flex items-center space-x-2">
+                <i
+                  class="fa-solid fa-star text-yellow-400 text-sm md:text-base"
+                ></i>
+                <span
+                  class="font-semibold text-gray-900 text-sm md:text-base"
+                  id="rating-average"
+                  >4.8</span
+                >
+                <span
+                  class="text-gray-500 text-xs md:text-sm"
+                  id="rating-quantity"
+                  >(234 reviews)</span
+                >
+              </div>
+            </div>
+            <div
+              class="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm rounded-2xl p-3 md:p-6 shadow-lg"
+            >
+              <div class="grid grid-cols-3 gap-4 text-center">
+                <div>
+                  <i
+                    class="fa-solid fa-clock text-orange-500 text-lg md:text-2xl mb-2"
+                  ></i>
+                  <p class="text-xs md:text-sm text-gray-500">Prep Time</p>
+                  <p
+                    class="font-bold text-gray-900 text-sm md:text-base"
+                    id="prep-time-display"
+                  >
+                    15 min
+                  </p>
+                </div>
+                <div>
+                  <i
+                    class="fa-solid fa-fire-burner text-red-500 text-lg md:text-2xl mb-2"
+                  ></i>
+                  <p class="text-xs md:text-sm text-gray-500">Cook Time</p>
+                  <p
+                    class="font-bold text-gray-900 text-sm md:text-base"
+                    id="cook-time-display"
+                  >
+                    20 min
+                  </p>
+                </div>
+                <div>
+                  <i
+                    class="fa-solid fa-users text-blue-500 text-lg md:text-2xl mb-2"
+                  ></i>
+                  <p class="text-xs md:text-sm text-gray-500">Servings</p>
+                  <p
+                    class="font-bold text-gray-900 text-sm md:text-base"
+                    id="servings-display"
+                  >
+                    4 people
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lg:col-span-3 p-5 lg:p-10 h-full overflow-y-auto">
+            <div
+              class="flex flex-col md:flex-row gap-5 items-start justify-between mb-6"
+            >
+              <div>
+                <div class="flex items-center space-x-3 mb-3">
+                  <span
+                    class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs font-semibold"
+                    id="difficulty-badge"
+                    >Easy</span
+                  >
+                  <span
+                    class="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-semibold"
+                    id="category-badge"
+                    >Italian</span
+                  >
+                </div>
+                <h3
+                  class="text-2xl md:text-4xl font-bold text-gray-900 mb-2"
+                  id="recipe-name"
+                >
+                  Creamy Spaghetti Carbonara
+                </h3>
+                <p
+                  class="text-sm md:text-lg text-gray-600"
+                  id="recipe-description"
+                >
+                  A classic Italian pasta dish with eggs, cheese, and pancetta
+                </p>
+              </div>
+              <div
+                class="-order-1 md:order-0 self-end md:self-center flex space-x-2"
+              >
+                <button
+                  class="w-12 h-12 bg-orange-100 hover:bg-orange-200 text-orange-600 rounded-xl flex items-center justify-center transition cursor-pointer"
+                >
+                  <i class="fa-solid fa-bookmark"></i>
+                </button>
+                <button
+                  class="w-12 h-12 bg-orange-100 hover:bg-orange-200 text-orange-600 rounded-xl flex items-center justify-center transition cursor-pointer"
+                >
+                  <i class="fa-solid fa-share-nodes"></i>
+                </button>
+              </div>
+            </div>
+
+            <div
+              id="time-warning"
+              class="bg-red-50 border-l-4 border-red-500 p-4 rounded-lg mb-6 hidden"
+            >
+              <div class="flex items-center">
+                <i
+                  class="fa-solid fa-triangle-exclamation text-red-500 text-xl mr-3"
+                ></i>
+                <div>
+                  <p class="font-semibold text-red-800 text-sm md:text-base">
+                    Extended Preparation Time
+                  </p>
+                  <p class="text-xs md:text-sm text-red-600">
+                    This recipe requires more than 45 minutes to prepare. Plan
+                    accordingly!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="border-b border-gray-200 mb-6 p-4">
+              <div
+                class="grid grid-cols-4 gap-2 *:bg-orange-50 *:bg-transparent"
+              >
+                <button
+                  class="tab-button pb-2 font-semibold text-orange-600 border-b-2 border-orange-600 cursor-pointer text-xs md:text-base flex items-center justify-center whitespace-nowrap"
+                  data-tab="ingredients"
+                >
+                  <i
+                    class="fa-solid fa-list-check mr-1 md:mr-2 flex-shrink-0"
+                  ></i
+                  ><span class="truncate">Ingredients</span>
+                </button>
+                <button
+                  class="tab-button pb-2 font-semibold text-gray-500 hover:text-gray-700 border-b-2 border-transparent cursor-pointer text-xs md:text-base flex items-center justify-center whitespace-nowrap"
+                  data-tab="instructions"
+                >
+                  <i
+                    class="fa-solid fa-book-open mr-1 md:mr-2 flex-shrink-0"
+                  ></i
+                  ><span class="truncate">Instructions</span>
+                </button>
+                <button
+                  class="tab-button pb-2 font-semibold text-gray-500 hover:text-gray-700 border-b-2 border-transparent cursor-pointer text-xs md:text-base flex items-center justify-center whitespace-nowrap"
+                  data-tab="nutrition"
+                >
+                  <i
+                    class="fa-solid fa-chart-pie mr-1 md:mr-2 flex-shrink-0"
+                  ></i
+                  ><span class="truncate">Nutrition</span>
+                </button>
+                <button
+                  class="tab-button pb-2 font-semibold text-gray-500 hover:text-gray-700 border-b-2 border-transparent cursor-pointer text-xs md:text-base flex items-center justify-center whitespace-nowrap"
+                  data-tab="tips"
+                >
+                  <i
+                    class="fa-solid fa-lightbulb mr-1 md:mr-2 flex-shrink-0"
+                  ></i
+                  ><span class="truncate">Chef's Tips</span>
+                </button>
+              </div>
+            </div>
+
+            <div
+              id="ingredients-tab"
+              class="tab-content h-[350px] overflow-y-auto"
+            >
+              <div
+                class="bg-linear-to-br from-orange-50 to-amber-50 rounded-2xl p-6"
+              >
+                <ul class="space-y-3" id="ingredients-list">
+                  <li class="flex items-start">
+                    <div
+                      class="w-6 h-6 bg-orange-500 rounded-full flex items-center justify-center text-white text-xs font-bold mt-0.5 mr-3 flex-shrink-0"
+                    >
+                      1
+                    </div>
+                    <span class="text-gray-700">400g spaghetti pasta</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              id="instructions-tab"
+              class="tab-content hidden h-[350px] overflow-y-auto"
+            >
+              <div class="space-y-6" id="instructions-list">
+                <div class="flex items-start">
+                  <div
+                    class="w-12 h-12 bg-orange-500 rounded-2xl flex items-center justify-center text-white text-xl font-bold mr-4 flex-shrink-0"
+                  >
+                    1
+                  </div>
+                  <div class="flex-1 pt-2">
+                    <p class="text-gray-700">Step instruction here</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="nutrition-tab"
+              class="tab-content hidden h-[350px] overflow-y-auto"
+            >
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div
+                  class="flex items-center justify-between p-4 bg-gray-50 rounded-xl"
+                >
+                  <div class="flex items-center">
+                    <div
+                      class="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center mr-3"
+                    >
+                      <i class="fa-solid fa-fire text-orange-600"></i>
+                    </div>
+                    <span class="text-gray-700 font-medium text-xs md:text-base"
+                      >Calories</span
+                    >
+                  </div>
+                  <span
+                    class="text-base md:text-xl font-bold text-gray-900"
+                    id="calories-value"
+                    >520 kcal</span
+                  >
+                </div>
+                <div
+                  class="flex items-center justify-between p-4 bg-gray-50 rounded-xl"
+                >
+                  <div class="flex items-center">
+                    <div
+                      class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-3"
+                    >
+                      <i class="fa-solid fa-dumbbell text-blue-600"></i>
+                    </div>
+                    <span class="text-gray-700 font-medium text-xs md:text-base"
+                      >Protein</span
+                    >
+                  </div>
+                  <span
+                    class="text-base md:text-xl font-bold text-gray-900"
+                    id="protein-value"
+                    >28g</span
+                  >
+                </div>
+                <div
+                  class="flex items-center justify-between p-4 bg-gray-50 rounded-xl"
+                >
+                  <div class="flex items-center">
+                    <div
+                      class="w-10 h-10 bg-yellow-100 rounded-lg flex items-center justify-center mr-3"
+                    >
+                      <i class="fa-solid fa-wheat-awn text-yellow-600"></i>
+                    </div>
+                    <span class="text-gray-700 font-medium text-xs md:text-base"
+                      >Carbohydrates</span
+                    >
+                  </div>
+                  <span
+                    class="text-base md:text-xl font-bold text-gray-900"
+                    id="carbs-value"
+                    >62g</span
+                  >
+                </div>
+                <div
+                  class="flex items-center justify-between p-4 bg-gray-50 rounded-xl"
+                >
+                  <div class="flex items-center">
+                    <div
+                      class="w-10 h-10 bg-red-100 rounded-lg flex items-center justify-center mr-3"
+                    >
+                      <i class="fa-solid fa-droplet text-red-600"></i>
+                    </div>
+                    <span class="text-gray-700 font-medium text-xs md:text-base"
+                      >Fat</span
+                    >
+                  </div>
+                  <span
+                    class="text-base md:text-xl font-bold text-gray-900"
+                    id="fat-value"
+                    >18g</span
+                  >
+                </div>
+                <div
+                  class="flex items-center justify-between p-4 bg-gray-50 rounded-xl"
+                >
+                  <div class="flex items-center">
+                    <div
+                      class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mr-3"
+                    >
+                      <i class="fa-solid fa-seedling text-green-600"></i>
+                    </div>
+                    <span class="text-gray-700 font-medium text-xs md:text-base"
+                      >Fiber</span
+                    >
+                  </div>
+                  <span
+                    class="text-base md:text-xl font-bold text-gray-900"
+                    id="fiber-value"
+                    >3g</span
+                  >
+                </div>
+                <div
+                  class="flex items-center justify-between p-4 bg-gray-50 rounded-xl"
+                >
+                  <div class="flex items-center">
+                    <div
+                      class="w-10 h-10 bg-pink-100 rounded-lg flex items-center justify-center mr-3"
+                    >
+                      <i class="fa-solid fa-cube text-pink-600"></i>
+                    </div>
+                    <span class="text-gray-700 font-medium text-xs md:text-base"
+                      >Sodium</span
+                    >
+                  </div>
+                  <span
+                    class="text-base md:text-xl font-bold text-gray-900"
+                    id="sodium-value"
+                    >680mg</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div
+              id="tips-tab"
+              class="tab-content hidden h-[350px] overflow-y-auto"
+            >
+              <div class="space-y-4" id="tips-list">
+                <div
+                  class="flex items-start p-4 bg-amber-50 rounded-xl border-l-4 border-amber-400"
+                >
+                  <i
+                    class="fa-solid fa-check-circle text-amber-600 text-xl mr-3 mt-1"
+                  ></i>
+                  <p class="text-gray-700">
+                    Use room temperature eggs for a smoother sauce consistency
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="flex items-center space-x-4 mt-8 pt-6 border-t border-gray-200"
+            >
+              <button
+                id="try-another-btn"
+                class="bg-linear-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-xl font-semibold shadow-lg hover:shadow-xl transition transform hover:scale-105 cursor-pointer text-sm md:text-base"
+              >
+                <i class="fa-solid fa-rotate mr-1 md:mr-2"></i>Try Another
+                Recipe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="js/script.js"></script>
+  </body>
+</html>

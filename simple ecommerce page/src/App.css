@@ -1,0 +1,229 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+button{
+  background-color: green;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+/*
+.insta{
+  width: 17vw;
+  height: 16vw;
+  margin-right: 800px;
+}
+
+.face{
+  width: 17vw;
+  height: 16vw;
+}
+*/
+
+.mainContainer{
+  width: 80vw;
+  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pro1{
+  width: 22vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.Products img{
+  width: 17vw;
+  height: 16vw;
+}
+
+.footer-img{
+  border: solid ;
+  border-radius: 20px ;
+}
+
+/* For smaller screens, make the products take up full width */
+@media (max-width: 768px) {
+  .pro1 {
+    width: calc(50% - 20px);
+  }
+}
+
+/* For even smaller screens, make the products take up full width */
+@media (max-width: 480px) {
+  .pro1 {
+    width: 100%;
+  }
+}
+
+
+
+/* From here */
+
+/*
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.img-1{
+  border: solid ;
+  border-radius: 20px ;
+  
+}
+
+button{
+  background-color: green;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+.img-2{
+  border: solid ;
+  border-radius: 20px ;
+  margin: 20px;
+}
+.img-3{
+  border: solid ;
+  border-radius: 20px ;
+  margin: 20px;
+}
+.img-4{
+  border: solid ;
+  border-radius: 20px ;
+  margin: 20px;
+}
+.img-5{
+  border: solid ;
+  border-radius: 20px ;
+  margin: 20px;
+}
+.img-6{
+  border: solid ;
+  border-radius: 20px ;
+  margin: 20px;
+}
+
+/*
+.insta{
+  width: 17vw;
+  height: 16vw;
+  margin-right: 800px;
+}
+
+.face{
+  width: 17vw;
+  height: 16vw;
+}/
+
+.mainContainer{
+  width: 80vw;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.pro1{
+  width: 22vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+
+.Products img{
+  width: 17vw;
+  height: 16vw;
+  margin-right: 800px;
+}
+
+.footer-img{
+  border: solid ;
+  border-radius: 20px ;
+  width: 1400px;
+}
+*/

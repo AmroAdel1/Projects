@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amro Adel Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <!-- ===== HEADER ===== -->
+      <header class="site-header">
+        <h1>Amro Adel Portfolio</h1>
+        <p>Professional web developer</p>
+      </header>
+
+      <!-- ===== ABOUT ME ===== -->
+      <section class="section">
+        <h2 class="section-heading">About Me</h2>
+
+        <div class="about-layout">
+          <div class="about-left">
+            <img
+              class="profile-photo"
+              src="./images/about_me_placeholder.jpg"
+              alt="About Me"
+            />
+            <div class="social-icons">
+              <img src="./images/icons/facebook.png" alt="Facebook" />
+              <img src="./images/icons/linkedin.png" alt="LinkedIn" />
+              <img src="./images/icons/instagram.png" alt="Instagram" />
+              <img src="./images/icons/github.png" alt="GitHub" />
+            </div>
+          </div>
+
+          <div class="about-right">
+            <p>
+              Hello! I'm Amro Adel, a passionate web developer with over 5 years
+              of experience in creating innovative digital solutions. I
+              specialize in full-stack development and have a keen interest in
+              modern web technologies.
+            </p>
+            <p>
+              My journey in web development started during my college years, and
+              since then I've been continuously learning and adapting to new
+              technologies. I believe in writing clean, efficient code and
+              creating user-friendly interfaces.
+            </p>
+
+            <div class="skills-heading">Skills</div>
+            <ul class="skills-list">
+              <li><a href="#">HTML5</a></li>
+              <li><a href="#">CSS3</a></li>
+              <li><a href="#">JavaScript</a></li>
+              <li><a href="#">React.js</a></li>
+              <li><a href="#">Angular</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== EXPERIENCE TIMELINE ===== -->
+      <section class="section">
+        <h2 class="section-heading">Experience Timeline</h2>
+
+        <table class="experience-table">
+          <caption>
+            Professional Experience Overview
+          </caption>
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Logo</th>
+              <th>Role</th>
+              <th>Key Achievements</th>
+              <th>Dates</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2">TechCorp Solutions</td>
+              <td rowspan="2">
+                <img
+                  src="./images/techcorp.png"
+                  alt="TechCorp Logo"
+                  width="100"
+                  height="100"
+                />
+              </td>
+              <td>Senior Full Stack Developer</td>
+              <td>
+                <ul>
+                  <li>Lead development of web applications</li>
+                  <li>Mentor junior developers</li>
+                  <li>Architect scalable solutions</li>
+                </ul>
+              </td>
+              <td>Jan 2023 - Present</td>
+            </tr>
+            <tr>
+              <td>Full Stack Developer</td>
+              <td>
+                <ul>
+                  <li>Developed responsive web applications</li>
+                  <li>Collaborated with design teams</li>
+                  <li>Optimized application performance</li>
+                </ul>
+              </td>
+              <td>2021 - 2023</td>
+            </tr>
+            <tr>
+              <td>Digital Agency Pro</td>
+              <td>
+                <img
+                  src="./images/digital-agency-pro.png"
+                  alt="Digital Agency Pro Logo"
+                  width="100"
+                  height="100"
+                />
+              </td>
+              <td>Front End Developer</td>
+              <td>
+                <ul>
+                  <li>Built user interfaces from mockups</li>
+                  <li>Implemented responsive designs</li>
+                  <li>Conducted code reviews</li>
+                </ul>
+              </td>
+              <td>2019 - 2020</td>
+            </tr>
+            <tr>
+              <td>Web Design Studio</td>
+              <td>
+                <img
+                  src="./images/web-design-studio.png"
+                  alt="Web Design Studio Logo"
+                  width="100"
+                  height="100"
+                />
+              </td>
+              <td>Junior Web Developer</td>
+              <td>
+                <ul>
+                  <li>Maintained existing websites</li>
+                  <li>Fixed bugs and implemented features</li>
+                  <li>Learned best practices</li>
+                </ul>
+              </td>
+              <td>2019 - 2020</td>
+            </tr>
+            <tr>
+              <td colspan="5">Total Experience: 5+ years in web development</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- ===== CONTACT ME ===== -->
+      <section class="section">
+        <h2 class="section-heading">Contact Me</h2>
+        <p class="contact-intro">
+          Feel free to reach out to me using the form below. I'd love to hear
+          from you!
+        </p>
+
+        <form>
+          <!-- Personal Information -->
+          <fieldset>
+            <legend>Personal Information</legend>
+            <div class="form-grid">
+              <label for="fname">First Name: *</label>
+              <input type="text" name="fname" id="fname" />
+              <label for="lname">Last Name: *</label>
+              <input type="text" name="lname" id="lname" />
+
+              <label for="email">Email Address: *</label>
+              <input type="email" name="email" id="email" />
+              <label for="phone">Phone Number:</label>
+              <input type="tel" name="phone" id="phone" />
+
+              <label for="mdate">Preferred Meeting Date:</label>
+              <input type="date" name="mdate" id="mdate" />
+              <label for="btime">Best Time to Contact:</label>
+              <input type="time" name="btime" id="btime" />
+            </div>
+          </fieldset>
+
+          <!-- Project Details -->
+          <fieldset>
+            <legend>Project Details</legend>
+
+            <div class="project-top">
+              <label for="ptype">Project Type: *</label>
+              <input type="text" name="ptype" id="ptype" />
+              <label for="pdesc">Project Description: *</label>
+              <textarea name="pdesc" id="pdesc" cols="20" rows="2"></textarea>
+            </div>
+
+            <div class="project-middle">
+              <div class="budget-group">
+                <label><strong>Budget Range:</strong></label>
+                <label class="radio-item"
+                  ><input
+                    type="radio"
+                    name="budget_range"
+                    value="Under $5,000"
+                  />
+                  Under $5,000</label
+                >
+                <label class="radio-item"
+                  ><input
+                    type="radio"
+                    name="budget_range"
+                    value="$5,000 to $10,000"
+                  />
+                  $5,000 - $10,000</label
+                >
+                <label class="radio-item"
+                  ><input
+                    type="radio"
+                    name="budget_range"
+                    value="$10,000 to $25,000"
+                  />
+                  $10,000 - $25,000</label
+                >
+                <label class="radio-item"
+                  ><input
+                    type="radio"
+                    name="budget_range"
+                    value="Over $25,000"
+                  />
+                  Over $25,000</label
+                >
+              </div>
+
+              <div class="services-group">
+                <label
+                  ><strong
+                    >Services Required (Check all that apply):</strong
+                  ></label
+                >
+                <label class="checkbox-item"
+                  ><input type="checkbox" name="services" value="ui-design" />
+                  UI/UX Design</label
+                >
+                <label class="checkbox-item"
+                  ><input type="checkbox" name="services" value="frontend" />
+                  Frontend Development</label
+                >
+                <label class="checkbox-item"
+                  ><input type="checkbox" name="services" value="backend" />
+                  Backend Development</label
+                >
+                <label class="checkbox-item"
+                  ><input type="checkbox" name="services" value="hosting" />
+                  Hosting &amp; Deployment</label
+                >
+                <label class="checkbox-item">
+                  <input type="checkbox" name="services" value="maintenance" />
+                  Maintenance &amp; Support
+                </label>
+              </div>
+            </div>
+
+            <div class="referral-row">
+              <label for="referral">How did you hear about me?</label>
+              <select name="referral" id="referral">
+                <option disabled hidden selected>-- select source</option>
+                <option value="google">Google</option>
+                <option value="facebook">Facebook</option>
+                <option value="friend">Friend</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <div class="form-actions">
+            <input type="submit" value="Send Message" class="btn-submit" />
+            <input type="reset" value="Clear Form" class="btn-reset" />
+          </div>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

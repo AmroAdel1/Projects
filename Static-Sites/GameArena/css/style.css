@@ -1,0 +1,841 @@
+:root {
+  --main-bg-color: #0b0e13;
+  --accent-color: #cbfe1c;
+  --box-color: #1e2939;
+  --dark-black: #1a1a1a;
+}
+
+::selection {
+  background-color: var(--accent-color);
+  color: var(--main-bg-color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  color: rgb(241, 241, 241);
+  background-color: var(--main-bg-color);
+}
+
+/********* Navbar **********/
+nav {
+  background-color: var(--main-bg-color);
+  color: white;
+}
+
+.navbar-brand {
+  color: var(--accent-color);
+}
+
+.bg-main {
+  background-color: var(--main-bg-color);
+}
+
+.nav-border-color {
+  border: none !important; /* override border-bottom border-2 utilities */
+}
+
+.nav-border-color::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* was 100vw + translateX hack, now just 100% since parent is full width */
+  height: 2px;
+  background-color: #1c2836;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+  color: var(--accent-color);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--accent-color);
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--accent-color);
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.navbar-toggler:focus {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 0.2rem rgba(203, 254, 28, 0.25);
+}
+
+.row > * {
+  background-color: var(--main-bg-color);
+}
+
+i {
+  font-size: 18px;
+}
+
+i:hover {
+  color: var(--accent-color);
+}
+
+.custom-btn {
+  position: relative;
+  overflow: hidden;
+  transition: 0.15s;
+}
+
+.custom-btn:hover {
+  background-color: #cbfe1ccc;
+  color: var(--main-bg-color);
+}
+
+.custom-btn::before {
+  content: "";
+  background: linear-gradient(90deg, #0000, #fff6, #0000);
+  width: 100%;
+  height: 100%;
+  transition: left 0.6s;
+  position: absolute;
+  top: 0;
+  left: -100%;
+}
+
+.custom-btn2 {
+  position: relative;
+  overflow: hidden;
+  transition: 0.15s;
+}
+
+.custom-btn2:hover {
+  background-color: #cbfe1ccc;
+  color: var(--main-bg-color);
+}
+
+.custom-shine:hover::before {
+  left: 100%;
+}
+
+/********* Home **********/
+section#home {
+  position: relative;
+  background-image: url("../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* pins the bg to the viewport for the parallax effect */
+  min-height: 100vh;
+  padding-top: 55px;
+}
+
+section#home .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 0;
+}
+
+.bg-accent {
+  background-color: var(--accent-color);
+}
+
+.color-accent {
+  color: var(--accent-color);
+}
+
+.border-accent {
+  border-color: var(--accent-color);
+}
+
+.hero-img {
+  width: 634px;
+  height: 474px;
+  object-fit: cover;
+  object-position: center;
+  border: none;
+  box-shadow: 0 0 25px rgba(203, 254, 28, 0.4);
+  display: block;
+  border-radius: 1rem; /* keep image's own rounding slightly smaller than wrapper's */
+}
+
+h1 {
+  font-family: "Days One", sans-serif;
+  font-weight: 700;
+  font-size: 3.75rem;
+  line-height: 4.6875rem;
+}
+
+h2 {
+  font-family: "Days One", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4.6875rem;
+}
+
+.hero-border-wrap {
+  background: linear-gradient(to right, #cbfe1c, #05df72);
+  border-radius: 1.2rem; /* slightly bigger than the image's radius */
+  padding: 0.25rem; /* this becomes your visible "border" thickness */
+  display: inline-block;
+  width: 100%;
+}
+
+.stat-card {
+  bottom: -20px;
+  left: -20px;
+  background-color: var(--main-bg-color);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-outline-accent {
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+  background-color: transparent;
+}
+
+.btn-outline-accent:hover {
+  background-color: var(--accent-color);
+  color: var(--main-bg-color);
+}
+
+.special-header span::before {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: linear-gradient(to left, var(--accent-color), black);
+  display: block;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 10%;
+  left: 44%;
+  transform: translateX(-50%);
+}
+
+.special-header span::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: linear-gradient(to right, var(--accent-color), black);
+  display: block;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 10%;
+  right: 44%;
+  transform: translateX(50%);
+}
+
+.border-none {
+  border: none;
+}
+
+.game-card {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 2px solid transparent;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.game-card:hover {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 25px rgba(203, 254, 28, 0.35);
+}
+
+.game-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.game-card:hover .game-card-img {
+  transform: scale(1.05);
+}
+
+.game-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(203, 254, 28, 0) 0%,
+    rgba(203, 254, 28, 0) 50%,
+    rgba(203, 254, 28, 0.85) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.game-card:hover .game-card-overlay {
+  opacity: 1;
+}
+
+.game-card-tags {
+  top: 16px;
+  left: 16px;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.game-card:hover .game-card-tags {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.game-tag {
+  background-color: rgba(11, 14, 19, 0.7);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 999px;
+  backdrop-filter: blur(4px);
+}
+
+.game-tag i {
+  font-size: 0.75rem;
+  color: var(--accent-color);
+}
+
+.game-card-title {
+  bottom: 16px;
+  left: 16px;
+  color: var(--main-bg-color);
+  font-weight: 700;
+  font-size: 1.1rem;
+  opacity: 0;
+  transform: translateY(10px);
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.game-card:hover .game-card-title {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.carousel-arrow-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 2px solid rgba(41, 50, 64, 0.9);
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1;
+  transition: border-color 0.2s ease;
+}
+
+.carousel-arrow-btn i {
+  color: #99a1af;
+  transition: color 0.2s ease;
+}
+
+.carousel-arrow-btn:hover {
+  border-color: var(--accent-color);
+}
+
+.carousel-arrow-btn:hover i {
+  color: var(--accent-color);
+}
+
+#our-games .carousel-inner {
+  overflow: hidden; /* back to Bootstrap default — required for clean slide masking */
+}
+
+#gamesCarousel {
+  --bs-carousel-transition-duration: 0.35s;
+}
+
+.card-box {
+  width: 48px;
+  height: 48px;
+  background-color: var(--box-color);
+  transition: 0.3s;
+}
+
+.chakra-font {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+}
+
+.days-font {
+  font-family: "Days One", sans-serif;
+}
+
+/********* What We Do **********/
+section#what-we-do {
+  position: relative;
+}
+
+.animation-div {
+  position: relative;
+  background-color: var(--main-bg-color);
+  overflow: hidden; /* clip the scrolling track to this container's width */
+  padding: 2rem 0;
+  margin-top: 5rem;
+}
+
+.animation-div::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse 50% 90% at center,
+    #cbfe1cd9,
+    transparent 70%
+  );
+  z-index: 0;
+  pointer-events: none;
+}
+
+.animation-div::after {
+  content: "";
+  width: 600px;
+  height: 4px;
+  background: linear-gradient(
+    to right,
+    rgba(203, 254, 28, 0) 0%,
+    var(--accent-color) 10%,
+    var(--accent-color) 90%,
+    rgba(203, 254, 28, 0) 100%
+  );
+  box-shadow: 0 0 12px 2px rgba(203, 254, 28, 0.45);
+  display: block;
+  /* margin-bottom: 1rem; */
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.animation-div img {
+  width: 90px;
+  height: 90px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  flex-shrink: 0; /* stop flex from squishing images to fit */
+  position: relative;
+  z-index: 1;
+}
+
+.upper-animation,
+.lower-animation {
+  display: flex;
+  flex-wrap: nowrap; /* this is the key fix — never wrap to a new line */
+  gap: 1rem;
+  width: max-content; /* let the row be as wide as its content needs */
+}
+
+.upper-animation {
+  animation: marquee 30s linear infinite;
+  margin-bottom: 1rem;
+}
+
+.lower-animation {
+  animation: marqueeReverse 30s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-33.3333%);
+  }
+}
+@keyframes marqueeReverse {
+  from {
+    transform: translateX(-33.3333%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.what-we-do-card {
+  background-color: var(--dark-black);
+  border: 1px solid var(--box-color);
+  aspect-ratio: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.what-we-do-card:hover {
+  border-color: var(--accent-color);
+  box-shadow: 0 0 20px rgba(203, 254, 28, 0.25);
+}
+
+.card-box {
+  width: 64px;
+  height: 64px;
+  background-color: var(--box-color);
+  flex-shrink: 0;
+  transition: background-color 0.3s ease;
+}
+
+.card-box i {
+  font-size: 1.75rem;
+  color: var(--accent-color);
+  transition: color 0.3s ease;
+}
+
+.what-we-do-card:hover .card-box {
+  background-color: var(--accent-color);
+}
+
+.what-we-do-card:hover .card-box i {
+  color: var(--main-bg-color);
+}
+
+/* Corner triangles via pseudo-elements */
+.what-we-do-card::before,
+.what-we-do-card::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.what-we-do-card::before {
+  top: 5%;
+  left: 5%;
+  border-style: solid;
+  border-width: 24px 24px 0 0;
+  border-color: var(--accent-color) transparent transparent transparent;
+  transform: translate(-10px, -10px);
+}
+
+.what-we-do-card::after {
+  bottom: 5%;
+  right: 5%;
+  border-style: solid;
+  border-width: 0 0 24px 24px;
+  border-color: transparent transparent var(--accent-color) transparent;
+  transform: translate(10px, 10px);
+}
+
+.what-we-do-card:hover::before,
+.what-we-do-card:hover::after {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.what-we-do-card .card-text {
+  font-family: "Days One", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: rgb(241, 241, 241);
+}
+
+.what-we-do-img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/********* Our Team **********/
+.team-card {
+  position: relative;
+  aspect-ratio: 8 / 9;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Reset the filter from the parent so text stays fully colored */
+  /* filter: none;  */
+  transition: none;
+  z-index: 1;
+  cursor: pointer;
+
+  /* 1. Global Grayscale: Mutes all text and image colors initially */
+  filter: grayscale(100%);
+  /* Smooth color restoration transition for the text elements */
+  transition: filter 0.4s ease-in-out;
+}
+
+/* 1. Base Grayscale Background Layer */
+.team-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: inherit; /* Dynamically inherits your inline style image */
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%); /* Keeps ONLY the image gray */
+  z-index: -2;
+  transition: filter 0.4s ease;
+}
+
+/* 2. Top Color Sliding Background Layer */
+.team-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: inherit;
+  background-size: cover;
+  background-position: center;
+
+  /* Start completely hidden at the bottom */
+  clip-path: inset(100% 0 0 0);
+  z-index: -1;
+  /* Smooth cubic-bezier transition for a premium feel */
+  transition: clip-path 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* --- Hover States --- */
+
+/* Restores text colors instantly/smoothly at container level */
+.team-card:hover {
+  filter: grayscale(0%);
+}
+
+/* Slides the color layer up from the bottom */
+.team-card:hover::after {
+  clip-path: inset(0 0 0 0);
+}
+
+/* Optional: Slight brightness adjustment on hover like the video */
+.team-card:hover::before {
+  filter: grayscale(100%) brightness(0.9);
+}
+
+/* --- Content Isolation --- */
+/* This ensures your Bootstrap flex utilities and text sit safely above the background planes */
+.left-team,
+.team-tag {
+  position: relative;
+  z-index: 2;
+}
+
+/* .team-overlay {
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(11, 14, 19, 0.95) 0%,
+    rgba(11, 14, 19, 0.6) 35%,
+    rgba(11, 14, 19, 0) 70%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.25rem;
+  padding-right: 2.5rem; /* leave room for the vertical tag
+  transform: translateY(35%);
+  transition: transform 0.4s ease;
+}
+
+.team-card:hover .team-overlay {
+  transform: translateY(0);
+} */
+
+.team-name {
+  color: white;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.team-role {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+.team-sub {
+  font-size: 0.75rem;
+  color: #99a1af;
+}
+
+.team-tag {
+  writing-mode: sideways-lr;
+  transform: rotate(180deg);
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--accent-color);
+}
+
+.team-card:hover .team-tag {
+  opacity: 1;
+}
+
+/********* Contact Us **********/
+section#contact-us {
+  background-color: #101726;
+  color: var(--accent-color);
+}
+
+.contact-info-card,
+.contact-form-card {
+  background-color: var(--box-color);
+}
+
+.contact-info-card h5 {
+  color: white;
+  font-weight: 700;
+}
+
+.contact-icon {
+  width: 48px;
+  height: 48px;
+  background-color: var(--accent-color);
+  color: var(--main-bg-color);
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.community-card {
+  background: linear-gradient(135deg, var(--accent-color), #05df72);
+}
+
+.social-icon-dark {
+  width: 40px;
+  height: 40px;
+  background-color: var(--main-bg-color);
+  color: var(--accent-color);
+  transition: 0.2s;
+}
+
+.social-icon-dark:hover {
+  background-color: rgba(11, 14, 19, 0.8);
+}
+
+.contact-form-card h4:not(.color-accent) {
+  color: white;
+}
+
+.contact-input {
+  background-color: #2a3441;
+  border: 1px solid var(--box-color);
+  color: rgb(241, 241, 241);
+  padding: 0.65rem 1rem;
+}
+
+.contact-input::placeholder {
+  color: #99a1af;
+}
+
+.contact-input:focus {
+  background-color: #2a3441;
+  border-color: var(--accent-color);
+  color: rgb(241, 241, 241);
+  box-shadow: 0 0 0 0.1rem var(--accent-color);
+}
+
+.form-label {
+  color: rgb(241, 241, 241);
+  font-size: 0.9rem;
+}
+
+.form-check-input:checked {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 0.1rem var(--accent-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+/********* Footer **********/
+.footer {
+  background-color: black;
+  border-top: 1px solid var(--box-color);
+}
+
+.footer-text {
+  color: #99a1af;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.footer-heading {
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.footer-links li {
+  margin-bottom: 0.75rem;
+}
+
+.footer-links a {
+  color: #99a1af;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: var(--accent-color);
+}
+
+.footer-social {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #99a1af;
+  border: 1px solid var(--box-color);
+  transition: 0.2s ease;
+}
+
+.footer-social:hover {
+  color: var(--accent-color);
+}
+
+.footer-divider {
+  border-color: var(--box-color);
+  opacity: 1;
+}
+
+.footer-bottom-link {
+  color: #99a1af;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.footer-bottom-link:hover {
+  color: var(--accent-color);
+}
+
+.contact-icon i:hover,
+.contact-icon:hover i,
+.btn.bg-accent i:hover {
+  color: var(
+    --main-bg-color
+  ); /* cancel the global i:hover override here — no visible hover state needed */
+}

@@ -1,0 +1,255 @@
+/* Large Screens */
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+
+  .flex-container {
+    justify-content: space-between;
+  }
+
+  .hero-left {
+    height: 37rem;
+  }
+
+  .hero-left img {
+    height: 34rem;
+  }
+
+  .how-we-compare .container {
+    width: 95%;
+  }
+
+  .table-badge {
+    width: 80%;
+  }
+
+  .winner-card {
+    width: 35%;
+  }
+
+  .winner-card-right p {
+    font-size: 0.8rem;
+  }
+
+  .reviews-stars img {
+    height: 25px;
+    width: 25px;
+  }
+
+  .review-bar {
+    width: 100%;
+  }
+
+  .reviews-summary .review p {
+    font-size: 0.87rem;
+  }
+
+  .complete-setup .container {
+    width: 95%;
+  }
+
+  .setup-cards .card .card-cta span {
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+
+  .setup-cards .card .card-cta button {
+    font-size: 0.85rem;
+  }
+
+  footer .container {
+    width: 98%;
+  }
+
+  footer .container .flex-container {
+    align-items: flex-start;
+  }
+
+  .footer-header {
+    margin-left: 0;
+  }
+
+  /* direct children, not nested cards */
+  .flex-container > .card {
+    flex: 1;      /* ← each card takes equal space */
+    padding-left: 2rem;   /* ← gap between columns only */
+  }
+
+  .dji-desc {
+    width: 25%;
+    flex-shrink: 0;   /* ← prevent it from squishing */
+    margin-top: 0;
+  }
+
+  .footer-bottom {
+    flex-direction: row;
+  }
+
+  .payment-logo {
+    padding-bottom: 0.4rem;
+  }
+}
+
+/* Medium Screens */
+@media screen and (max-width: 768px) {
+  .nav-right ul {
+    display: none;
+  }
+
+  .hero-flex {
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+  .hero-discount {
+    left: 5%;
+  }
+
+  .how-we-compare .container {
+    width: 93%;
+  }
+
+  .table-badge {
+    width: 84%;
+  }
+
+  .bold-word .small-font {
+    font-size: 1rem;
+  }
+
+  .table-stars {
+    width: 106%;
+  }
+
+  .winner-card {
+    width: 45%;
+  }
+
+  .review-flex {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .reviews-left {
+    width: 100%;
+    position: static;
+    padding: 2rem;
+  }
+
+  .reviews-overall {
+    margin-top: 1rem;
+  }
+
+  .bar {
+    height: 0.625rem;
+  }
+
+  .bar .inner-div {
+    height: 0.625rem;
+  }
+
+  .review-bar {
+    margin-bottom: 0.5rem;
+  }
+
+  .reviews-stars img {
+    height: 24px;
+    width: 24px;
+  }
+
+  .reviews-summary {
+    justify-content: space-around;
+  }
+
+  .reviews-right {
+    width: 100%;
+  }
+
+  .complete-setup .container {
+    width: 93%;
+  }
+
+  .setup-cards {
+    flex-wrap: wrap;
+  }
+
+  .setup-cards .card {
+    width: calc(50% - 1rem);    /* ← 2 per row, accounting for gap */
+  }
+
+  footer .container {
+    width: 98%;
+  }
+
+  .dji-desc {
+    flex-shrink: unset;     /* ← cancels flex-shrink:0 from 1200px query */
+    width: calc(50% - 1rem);    /* ← left half, same as link cards */
+    margin-bottom: 2rem;
+  }
+
+  .footer-header {
+    margin-left: 0;
+  }
+
+  .footer-bottom p {
+    width: auto;
+  }
+
+  .payment-logos {
+    gap: 1rem;
+  }
+
+  .payment-logo {
+    padding: 0.5rem 1rem;
+  }
+
+  .flex-container > .card {
+    flex: unset;    /* ← cancels flex:1 from 1200px query */
+    width: calc(50% - 1rem);    /* ← 2 columns */
+    padding-left: 0;
+    margin-bottom: 2rem;
+  }
+}
+
+/* Small Screens */
+@media screen and (max-width: 576px) {
+  .nav-right ul {
+    display: none;
+  }
+
+  .hero-flex {
+    flex-wrap: wrap;
+    margin-top: 5rem;
+  }
+
+  .hero-discount {
+    left: 7%;
+  }
+
+  .winner-card {
+    width: 65%;
+  }
+
+  .setup-cards .card {
+    width: 100%;
+  }
+
+  .dji-desc {
+    flex-shrink: unset;   /* ← cancels flex-shrink:0 from 1200px query */
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .flex-container > .card {
+    flex: unset;
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 2rem;
+  }
+}

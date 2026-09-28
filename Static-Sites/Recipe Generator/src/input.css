@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+/* Custom Color Variables for Scrollbars */
+@layer theme {
+  :root,
+  :host {
+    --color-scrollbar-thumb: oklch(75% 0.15 35 / 0.3);
+    --color-scrollbar-thumb-hover: oklch(75% 0.15 35 / 0.5);
+  }
+}
+
+@layer base {
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+
+  /* Recipe Image Positioning */
+  #recipe-image {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Custom Scrollbar Styles for Section Overflow */
+  #recipe-display-section .overflow-y-auto {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-scrollbar-thumb) transparent;
+  }
+
+  #recipe-display-section .overflow-y-auto::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  #recipe-display-section .overflow-y-auto::-webkit-scrollbar-track {
+    background: 0 0;
+  }
+
+  #recipe-display-section .overflow-y-auto::-webkit-scrollbar-thumb {
+    background-color: var(--color-scrollbar-thumb);
+    border-radius: 20px;
+  }
+
+  #recipe-display-section .overflow-y-auto::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-scrollbar-thumb-hover);
+  }
+
+  /* Custom Scrollbar Styles for Tab Contents */
+  .tab-content {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-scrollbar-thumb) transparent;
+  }
+
+  .tab-content::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .tab-content::-webkit-scrollbar-track {
+    background: 0 0;
+  }
+
+  .tab-content::-webkit-scrollbar-thumb {
+    background-color: var(--color-scrollbar-thumb);
+    border-radius: 20px;
+  }
+
+  .tab-content::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-scrollbar-thumb-hover);
+  }
+
+  /* Print Media Styles */
+  @media print {
+    #header,
+    #filters-preferences-section,
+    .tab-button,
+    #try-another-btn,
+    #print-recipe-btn,
+    button {
+      display: none !important;
+    }
+
+    .tab-content {
+      page-break-inside: avoid;
+      height: auto !important;
+      display: block !important;
+      overflow: visible !important;
+    }
+
+    #recipe-display-section {
+      box-shadow: none !important;
+      border: none !important;
+      margin: 0 !important;
+    }
+
+    #recipe-display-section .grid {
+      height: auto !important;
+      display: block !important;
+    }
+
+    #recipe-display-section .col-span-2,
+    #recipe-display-section .col-span-3 {
+      width: 100% !important;
+      height: auto !important;
+      overflow: visible !important;
+    }
+
+    #recipe-image {
+      object-fit: cover;
+      page-break-after: avoid;
+      max-height: 300px;
+    }
+
+    .tab-content {
+      page-break-before: auto;
+    }
+
+    body {
+      font-size: 12pt;
+    }
+
+    h3 {
+      font-size: 18pt;
+    }
+  }
+}
