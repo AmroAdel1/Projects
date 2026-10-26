@@ -1,6 +1,6 @@
-# Lumo: Social Media App
+# Orchid: Social Media App
 
-A modern, responsive social media app built with **React**, **TypeScript**, **Tailwind CSS** and **shadcn/ui**. Lumo lets people share posts with photos, follow the conversation through comments and replies, like and save content, and stay up to date with notifications, all with a clean violet design, dark mode and offline support.
+A modern, responsive social media app built with **React**, **TypeScript**, **Tailwind CSS** and **shadcn/ui**. Orchid lets people share posts with photos, follow the conversation through comments and replies, like and save content, and stay up to date with notifications, all with a clean violet design, dark mode and offline support.
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6?logo=typescript&logoColor=white)
@@ -13,7 +13,7 @@ A modern, responsive social media app built with **React**, **TypeScript**, **Ta
 
 ## 🔗 Live Demo
 
-**[View Live Demo →](https://your-deployment-url.example.com)**
+**[View Live Demo →](https://orchid.amroadel-farid.workers.dev)**
 
 > Replace the link above with your deployed URL.
 
